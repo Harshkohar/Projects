@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+
+button{
+  font-size: 24px;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 40px 10px;
+  background-color: rgb(19, 162, 114);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.reset{
+  display: block;
+  margin: 20px auto;
+}
+
+.display{
+  font-size: 24px;
+  color: chocolate;
+  
+}

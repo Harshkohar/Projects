@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme{
+  --color-styling1:#12F7D6;
+  --color-styling2:#98FAEC;
+  --color-background1:#292F36;
+  --color-background2:#1A1E23;
+  --color-Grey:#43454D;
+}
+
+.social li{
+  display: flex;
+  gap: 8px;
+}
+
+.svg{
+  fill:#12F7D6;
+}

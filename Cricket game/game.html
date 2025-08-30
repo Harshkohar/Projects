@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Bat Ball Stump Cricket Game</h1>
+  <button onclick="
+      let computerChoice = generateComputerChoice();
+      let userChoice = 'Bat';
+      let result = getResult(userChoice, computerChoice) 
+      displayResult(userChoice, computerChoice, result);
+  "><img src="bat.png" alt="" width="60px"></button>
+  <button onclick="
+      computerChoice = generateComputerChoice();
+      userChoice = 'Ball';
+      result = getResult(userChoice, computerChoice) 
+      displayResult(userChoice, computerChoice, result);
+  "><img src="cricket.png" alt="" width="60px"></button>
+  <button onclick="
+      computerChoice = generateComputerChoice();
+      userChoice = 'Stump';
+      result = getResult(userChoice, computerChoice) 
+      displayResult(userChoice, computerChoice, result);
+  "><img src="wicket.png" alt="" width="60px"></button>
+
+
+  <div class="display" id="user"></div>
+  <div class="display" id="computer"></div>
+  <div class="display" id="result"></div>
+  <div class="display" id="score"></div>
+  
+  <button onclick="localStorage.clear();
+  resetScore();" class="reset">Reset</button>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
