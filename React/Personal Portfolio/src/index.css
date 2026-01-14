@@ -1,17 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 @import "tailwindcss";
-@theme{
-  --color-styling1:#12F7D6;
-  --color-styling2:#98FAEC;
-  --color-background1:#292F36;
-  --color-background2:#1A1E23;
-  --color-Grey:#43454D;
+
+@theme {
+  --color-styling1: #12F7D6;
+  --color-styling2: #98FAEC;
+  --color-css: #0C73B8;
+  --color-tailwindcss: #06B6D4;
+  --color-html: #E54F26;
+  --color-js: #E7A020;
+  --color-react: #28A9E0;
+  --color-background1: #292F36;
+  --color-background2: #1A1E23;
+  --color-Grey: #43454D;
+  --font-poppins: "Poppins", sans-serif;
+  --radius-10xl: 9rem;
+  --font-ubuntu: "Ubuntu", sans-serif;
 }
 
-.social li{
+html, body {
+  font-family: "Inter", sans-serif;
+}
+
+.social li {
   display: flex;
   gap: 8px;
 }
 
-.svg{
-  fill:#12F7D6;
+.social li:hover {
+  color: var(--color-styling1);
+}
+
+.info-list li{
+  margin-top: 0.3rem;
+}
+
+/* .about-me{
+  background-image: url(./assets/AboutMe.png);
+  background-size: 100% 100%;
+} */
+
+.skills{
+  background-image: url(/Skills.png);
+  background-size: 100%;
 }

@@ -24,6 +24,10 @@ session_start();
   <!-- External CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <style>
+    .logo{
+      width: 7%;
+    }
+
     .cart-img {
       width: 80px;
       height: 80px;
@@ -44,7 +48,7 @@ session_start();
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
       <div class="container-fluid">
-        <img src="./images/logo1.png" alt="Logo" class="logo">
+        <img src="../images/webcart.png" alt="Logo" class="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

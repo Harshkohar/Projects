@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Navbar</title>
   <style>
+    .logo{
+      width: 7%;
+    }
+
     #navbarSupportedContent li:hover{
       background-color: rgb(21, 47, 59);
       border-radius: 5px;
@@ -19,7 +23,7 @@
   <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
       <div class="container-fluid">
-        <img src="./images/logo1.png" alt="Logo" class="logo">
+        <img src="../images/webcart.png" alt="Logo" class="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
